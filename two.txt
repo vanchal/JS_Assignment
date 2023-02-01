@@ -1,0 +1,4 @@
+x = 3,
+y = 7
+
+This method is array destructuring.It takes each variable on the array literal on the left-hand side and maps it to the same element at the same index in the array.
