@@ -1,0 +1,26 @@
+Ques:
+20.What will be the output for the following:
+console.log("0 || 1 = "+(0 || 1));
+console.log("1 || 2 = "+(1 || 2));
+console.log("0 && 1 = "+(0 && 1));
+console.log("1 && 2 = "+(1 && 2));
+
+
+Output :
+
+0 || 1 = 1   // Returns expr1 if it can be converted to true; otherwise, returns expr2. 
+                Thus, when used with Boolean values, || returns true if either operand is true; if both are false, returns false.. 
+                therefore(0||1) return 1 which is concatenated with the string.
+
+1 || 2 = 1   // Returns expr1 if it can be converted to true; otherwise, returns expr2. Here exp 1 is true so it is returned and concatenated with string.
+
+
+0 && 1 = 0   // Returns expr1 if it can be converted to false; otherwise, returns expr2. 
+             // Thus, when used with Boolean values, && returns true if both operands are true; otherwise, returns false.
+
+
+
+1 && 2 = 2   // Here both expression are true first exp is checked it is true and then second expression is checked which is also true and is returned and 
+                concatenated to string.
+
+

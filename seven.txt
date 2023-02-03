@@ -1,0 +1,12 @@
+Ques:
+7. What will be the output of the following code?
+console.log(0/0 === 0/0);
+console.log(0/0 == 0/0);
+console.log(Number.isNaN(0/0) === Number.isNaN(0/0));
+
+Output:
+
+false       // 0/0 is NaN ,and NaN has a special property that it does not even === itself because if value is NaN it dosent means both equal to something else.
+false       // 0/0 is NaN ,and NaN has a special property that it does not even == itself.
+
+true        // Here Number.isNaN(0/0) return true as 0/0 is not a number therefore both side of expression are true and true === true so ans is true.

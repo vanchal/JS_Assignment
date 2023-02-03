@@ -1,0 +1,19 @@
+Ques:
+18.What will be the output for the following:
+var a = () => {
+console.log("a called");
+};
+a();
+var a = 34;
+a();
+
+
+Output:
+
+a called
+TypeError: a is not a function
+
+
+Here first function expression is written and stored in variable a , which is invoked and prints the desired output .
+Again a is redefined a value therefore variable is overwritten with a value therefore it is no longer a function, 
+and hence displays type error on invoking again .

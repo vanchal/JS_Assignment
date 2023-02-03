@@ -1,0 +1,15 @@
+Ques:
+8. What will be the output of the following code?
+let a;
+console.log(a === undefined);
+console.log(a === null);
+console.log(a*2);
+console.log(`${a} is the value of a`);
+
+
+Output:
+
+true     // a value has not be defined only memory is alloted therefore it is undefined and on strict equality returns true
+false    // a value is undefined and not null therefore on strict equality check  gibves a false
+NaN      // since a is not assigned any value it is undefined and multiplication operation is applied on numbers therfore its gives NaN
+"undefined is the value of a"  // since a is not initialised it is undefined therefore it gives undefined as value.

@@ -1,4 +1,11 @@
+Ques :
+2. What will be the value of x and y?
+let arrayValue = [3,5,7];
+let [x, ,y] = arrayValue;
+
+Output:
 x = 3,
 y = 7
 
-This method is array destructuring.It takes each variable on the array literal on the left-hand side and maps it to the same element at the same index in the array.
+This method is array destructuring.
+It takes each variable on the array literal on the left-hand side and maps it to the same element at the same index in the array.git 

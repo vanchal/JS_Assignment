@@ -1,0 +1,17 @@
+Ques:
+6. What will be the output of the following code?
+var a = {a: 1};
+var b = {a: 1};
+console.log(a == b);
+console.log(a === b);
+var c = a;
+console.log(a == c);
+console.log(a === c);
+
+
+Output:
+
+false              // objects are compared using their reference hence a and b have different reference in memory so false
+false              // objects are compared using their reference hence a and b have different reference in memory so false
+true               // object a is assigned to c therefore a and c point to same address in memory and therefore equals true
+true               // object a is assigned to c therefore a and c point to same address in memory and therefore equals true

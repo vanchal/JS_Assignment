@@ -1,0 +1,21 @@
+Ques:
+9. What is the output of the following code?
+(function(){
+setTimeout(()=> console.log(1),2000);
+console.log(2);
+setTimeout(()=> console.log(3),0);
+console.log(4);
+})();
+
+
+
+output : 
+2
+4
+3
+1
+
+
+Here timer(setTimeout) will be mounted on web api by event loop which acts as manager and when the time ends are pushed in the callback queue .
+When the call stack is empty after execution these are pushed from callback queue to call stack for execeution .
+That is why setTimeout consoles at the end according to timer.

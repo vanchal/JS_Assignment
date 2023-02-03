@@ -1,0 +1,13 @@
+Ques:
+3. What is the value of x and y?
+const arrayValue = [1, 2, 3, 4];
+const [x, ...y] = arrayValue;
+
+
+Output: 
+
+x = 1,
+y = [2,3,4]
+
+Here ... is used as rest operator 
+The rest operator is used to put the rest of some specific user-supplied values into a JavaScript array.

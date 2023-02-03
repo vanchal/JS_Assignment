@@ -1,0 +1,16 @@
+Ques:
+12.What is the output of the following code?
+const obj1 = {first: 20, second: 30, first: 50};
+console.log(obj1);
+
+
+Output :
+{
+  first: 50,
+  second: 30
+}
+
+
+Here key first is first assigned 20 and then value is overwritten 50.
+
+

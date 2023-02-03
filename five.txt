@@ -1,0 +1,11 @@
+Ques:
+What will be the output of the following?
+const name = "Front ";
+const number = 242;
+console.log(`${name}${number}`);
+
+
+Output will be :
+"Front 242"
+
+Here template literal method is being used for string concatenation
